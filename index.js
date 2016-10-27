@@ -19,6 +19,6 @@
      return "I am proud to be an American.";
    }
    sayHi() {
-     return "Hi, my name is Lyndon B Johnson. I am from Texas. I represent the Democrats, and was in office 1963-1969.";
+     return "Hi, my name is " + this.name + ". I am from " + this.homeState + ". I represent the " + this.politicalParty + ", and was in office " + this.yearsInOffice + ".";
    }
  }
